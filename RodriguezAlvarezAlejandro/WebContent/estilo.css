@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Segoe UI', 'Calibri', sans-serif;
+    color: aliceblue;
+    background-color: #282828;
+}
+
+h1 {
+	font-family: 'Segoe UI Semilight', 'Segoe UI', 'Cambria', sans-serif;
+	color: royalblue;
+}
+
+h2 {
+	font-family: 'Segoe UI Semilight', 'Segoe UI', 'Cambria', sans-serif;
+	color: dodgerblue;
+    text-align: center;
+}
+
+a {
+	font-family: 'Segoe UI Semibold', 'Segoe UI', 'Calibri', sans-serif;
+    color: lightblue;
+}
+
+table {
+	text-align: right;
+	margin: 0 auto;
+}
+
+table#perfil td#dato {
+	text-align: left;
+	display: block;
+	margin-left: 1.5em;
+}
+
+input {
+    font-family: 'Segoe UI Semilight', 'Segoe UI', 'Calibri', sans-serif;
+    font-size: 1em;
+    margin-left: 1.5em;
+}
+
+footer {
+    margin-top: 3em;
+}
+
+td#login {
+    display: block;
+    text-align: left;
+    margin-left: 1.5em;
+}
+
+#viajes tr, #viajes td {
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+}
+
+pre {
+    display: inline;
+    font-family: 'Segoe UI Semibold', 'Segoe UI', 'Calibri', sans-serif;
+    color: lightblue;
+    font-size: 0.95em;
+}
+
+pre#status {
+    color: firebrick;
+}
+
+pre#info {
+	display: block;
+	text-align: center;
+}
+
+input#trampa {
+	display: none;
+}
+
+section#metro {
+	display: inline-block;
+	padding: 5em;
+}
+
+section#contenedor {
+	display: block;
+	text-align: center;
+}
